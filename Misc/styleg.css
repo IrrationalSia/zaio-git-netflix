@@ -1,0 +1,148 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar svg {
+    width: 140px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    background-color: #e50914;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.banner-wrap {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/00a23052-d2be-4c3f-a6d4-56d72466d14e/c6aa0bd1-24c8-43f7-a0c5-38f3d70f7ff5/ZA-en-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.banner-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.banner-container h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.get-started-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.get-started-form h3 {
+    margin-bottom: 10px;
+}
+
+.get-started-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.get-started-form button {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Info Container */
+.info-container {
+    padding: 60px 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.info-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Video in the Info Section */
+.info-container video {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    padding: 40px 20px;
+    background-color: #181818;
+    color: #757575;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 10px 20px;
+}
+
+footer ul li a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
